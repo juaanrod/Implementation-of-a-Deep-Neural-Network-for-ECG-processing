@@ -87,3 +87,26 @@ The code follows a modular "Functional Programming" approach typical in Signal P
 │   ├── pruning.m           # Model Compression Logic
 │   └── data_loader.m       # PhysioNet Parser
 └── data/                   # MIT-BIH Samples (.mat)
+
+
+## Usage / Quick Start
+
+This repository contains all the source code for the Deep Neural Network developed for the Bachelor's Thesis in Telecommunication Engineering at the University of Málaga. While the code includes explanatory comments, the detailed theoretical operation is described in the thesis document.
+
+**⚠️ Important Note:** The script `genera_datos_ECG.m` is included for reference but **will not execute** because the dependencies `FUN_ECG.m` and `FUN_NOISE.m` are not provided in this repository.
+
+To successfully simulate the model, you must use the pre-compiled datasets provided (`datos_train.mat`, `datos_val.mat`, `datos_test.mat`).
+
+### Execution Steps:
+
+1.  **Clone** the repository and open MATLAB.
+2.  **Load the datasets** manually by running the following command in the MATLAB console:
+    ```matlab
+    >> load('datos_train.mat')
+    % You can also load 'datos_val.mat' and 'datos_test.mat' if needed.
+    ```
+3.  **Run the main script** to verify the model performance:
+    ```matlab
+    >> main
+    ```
+    *The script will use the loaded data to execute the Deep Neural Network forward and backward passes.*
