@@ -5,7 +5,7 @@
 
 ![MATLAB](https://img.shields.io/badge/Core-MATLAB_Native-orange?style=for-the-badge&logo=mathworks)
 ![Status](https://img.shields.io/badge/Status-Research_Thesis-blue?style=for-the-badge)
-![Award](https://img.shields.io/badge/Award-Highest_Honors_(Top_5%25)-gold?style=for-the-badge)
+![Award](https://img.shields.io/badge/Award-Highest_Honors-gold?style=for-the-badge)
 
 > **⚠️ Language Note:** All source code, comments, and internal documentation are written in **Spanish** to comply with the academic submission requirements of the University of Málaga (Spain). This README provides an English overview for international researchers.
 
@@ -16,6 +16,8 @@ This repository hosts the **Deep Neural Network (DNN)** engine developed for my 
 **The Goal:** To mathematically derive and implement the backpropagation calculus, optimization algorithms, and regularization techniques to classify **1D ECG (Electrocardiogram)** biosignals for arrhythmia detection.
 
 **Key Achievement:** The project was awarded **"Matrícula de Honor" (Highest Honors)** for its technical depth, optimizing the trade-off between mathematical rigor and computational efficiency on the **MIT-BIH PhysioNet** database.
+
+> 📄 **Full Thesis Available:** You can read or download the complete academic document (PDF) directly from my [LinkedIn Profile](https://www.linkedin.com/in/juanrodriguezlopez).
 
 ---
 
