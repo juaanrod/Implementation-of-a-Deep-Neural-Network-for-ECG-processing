@@ -74,11 +74,11 @@ The model was validated using the **MIT-BIH Arrhythmia Database** (PhysioNet).
 The code follows a modular "Functional Programming" approach typical in Signal Processing research:
 
 ```bash
-├── main.m                  # 🚀 Entry point: Setup, Training, Evaluation
+├── main.m                  # Entry point: Setup, Training, Evaluation
 ├── Entrena_DNN.m           # Training Loop (Epochs & Batching)
 ├── modules/
 │   ├── forwardPropagation.m
-│   ├── backPropagation.m   # 📐 Core Calculus Implementation
+│   ├── backPropagation.m   # Core Calculus Implementation
 │   ├── computeCost.m       # BCE Loss
 │   └── updateParams.m      # SGD/Adam Optimizer
 ├── utils/
