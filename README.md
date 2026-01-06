@@ -87,7 +87,7 @@ The code follows a modular "Functional Programming" approach typical in Signal P
 │   ├── pruning.m           # Model Compression Logic
 │   └── data_loader.m       # PhysioNet Parser
 └── data/                   # MIT-BIH Samples (.mat)
-
+```
 
 ## Usage / Quick Start
 
